@@ -1,0 +1,163 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:21:45.065626 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:21:45.065689 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:21:54.756775 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:21:54.757632 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:22:28.601786 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:22:28.602061 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:22:39.105442 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:22:39.105716 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:43:53.603115 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:43:53.606812 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:44:00.973905 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:44:00.974277 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:44:10.663909 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:44:10.664223 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:48:43.914989 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:48:43.915277 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 22:55:18.862950 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 22:55:18.864202 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 23:00:27.976362 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 23:00:27.976806 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 23:00:32.918950 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 23:00:32.919566 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Thu Jul 13 23:00:44.921652 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 13 23:00:44.923686 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Fri Jul 14 13:17:38.940164 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Jul 14 13:17:38.940472 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Sun Jul 16 16:08:41.386974 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Jul 16 16:08:41.387353 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Sun Jul 16 16:08:51.351403 2017] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Jul 16 16:08:51.359812 2017] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Sun Jul 16 16:09:00.808278 2017] [core:warn] [pid 6] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 16 16:09:00.815163 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Jul 16 16:09:00.815545 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Sat Jul 29 21:18:54.561863 2017] [core:warn] [pid 8] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jul 29 21:18:54.564443 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Jul 29 21:18:54.564669 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Jul 30 01:33:43.688902 2017] [:error] [pid 12] [client 172.17.0.1:50242] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97, referer: http://localhost:90/myecm/
+[Sun Jul 30 01:33:43.688924 2017] [:error] [pid 12] [client 172.17.0.1:50242] PHP Stack trace:, referer: http://localhost:90/myecm/
+[Sun Jul 30 01:33:43.688930 2017] [:error] [pid 12] [client 172.17.0.1:50242] PHP   1. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0, referer: http://localhost:90/myecm/
+[Sun Jul 30 01:33:43.688933 2017] [:error] [pid 12] [client 172.17.0.1:50242] PHP   2. fclose() /var/www/html/myecm/logs/logger.class.php:97, referer: http://localhost:90/myecm/
+[Sun Jul 30 01:33:43.695689 2017] [:error] [pid 12] [client 172.17.0.1:50242] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97, referer: http://localhost:90/myecm/
+[Sun Jul 30 01:33:43.695719 2017] [:error] [pid 12] [client 172.17.0.1:50242] PHP Stack trace:, referer: http://localhost:90/myecm/
+[Sun Jul 30 01:33:43.695726 2017] [:error] [pid 12] [client 172.17.0.1:50242] PHP   1. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0, referer: http://localhost:90/myecm/
+[Sun Jul 30 01:33:43.695731 2017] [:error] [pid 12] [client 172.17.0.1:50242] PHP   2. fclose() /var/www/html/myecm/logs/logger.class.php:97, referer: http://localhost:90/myecm/
+[Sun Jul 30 01:52:41.152095 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 01:52:41.152120 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP Stack trace:
+[Sun Jul 30 01:52:41.152126 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 01:52:41.152131 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 01:52:41.152135 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 01:52:41.152162 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 01:52:41.152166 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP Stack trace:
+[Sun Jul 30 01:52:41.152171 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 01:52:41.152175 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 01:52:41.152179 2017] [:error] [pid 13] [client 172.17.0.1:50298] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 01:53:13.135220 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 01:53:13.135240 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP Stack trace:
+[Sun Jul 30 01:53:13.135244 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 01:53:13.135247 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 01:53:13.135250 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 01:53:13.135270 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 01:53:13.135273 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP Stack trace:
+[Sun Jul 30 01:53:13.135275 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 01:53:13.135284 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 01:53:13.135287 2017] [:error] [pid 12] [client 172.17.0.1:50304] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 01:53:43.341614 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 01:53:43.341631 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP Stack trace:
+[Sun Jul 30 01:53:43.341635 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 01:53:43.341639 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 01:53:43.341642 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 01:53:43.341662 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 01:53:43.341664 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP Stack trace:
+[Sun Jul 30 01:53:43.341667 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 01:53:43.341670 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 01:53:43.341673 2017] [:error] [pid 11] [client 172.17.0.1:50310] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Sun Jul 30 20:26:37.800562 2017] [core:warn] [pid 6] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 30 20:26:37.803678 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Jul 30 20:26:37.804104 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Jul 30 20:28:45.563296 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 20:28:45.563526 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP Stack trace:
+[Sun Jul 30 20:28:45.563734 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 20:28:45.563869 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 20:28:45.563982 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 20:28:45.564134 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 20:28:45.564243 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP Stack trace:
+[Sun Jul 30 20:28:45.564338 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 20:28:45.564432 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 20:28:45.564526 2017] [:error] [pid 8] [client 172.17.0.1:59990] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 20:34:41.443349 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 20:34:41.443698 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP Stack trace:
+[Sun Jul 30 20:34:41.443706 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 20:34:41.443710 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 20:34:41.443713 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 20:34:41.443737 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 20:34:41.443740 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP Stack trace:
+[Sun Jul 30 20:34:41.443743 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 20:34:41.443745 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 20:34:41.443748 2017] [:error] [pid 9] [client 172.17.0.1:59996] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 20:36:46.616911 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 20:36:46.616934 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP Stack trace:
+[Sun Jul 30 20:36:46.616941 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 20:36:46.616946 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 20:36:46.616951 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 20:36:46.616979 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 20:36:46.616983 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP Stack trace:
+[Sun Jul 30 20:36:46.616988 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 20:36:46.616993 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 20:36:46.616997 2017] [:error] [pid 10] [client 172.17.0.1:60002] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 20:37:11.379854 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 20:37:11.379872 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP Stack trace:
+[Sun Jul 30 20:37:11.379876 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 20:37:11.379879 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 20:37:11.379882 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+[Sun Jul 30 20:37:11.379901 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/myecm/logs/logger.class.php on line 97
+[Sun Jul 30 20:37:11.379904 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP Stack trace:
+[Sun Jul 30 20:37:11.379907 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP   1. {main}() /var/www/html/myecm/api/v1/api-entrypoint.php:0
+[Sun Jul 30 20:37:11.379915 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP   2. Core\\Logs\\Logger->__destruct() /var/www/html/myecm/logs/logger.class.php:0
+[Sun Jul 30 20:37:11.379918 2017] [:error] [pid 12] [client 172.17.0.1:60018] PHP   3. fclose() /var/www/html/myecm/logs/logger.class.php:97
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Sat Aug 05 18:51:05.804650 2017] [core:warn] [pid 7] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 05 18:51:05.807064 2017] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Aug 05 18:51:05.807465 2017] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+Cannot load Xdebug - it was already loaded
+[Fri Aug 18 20:05:30.888452 2017] [core:warn] [pid 6] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Aug 18 20:05:30.892907 2017] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Aug 18 20:05:30.893160 2017] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

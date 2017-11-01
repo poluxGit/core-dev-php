@@ -1,0 +1,5 @@
+{
+    "require": {
+        "poluxGit/core-db": "0.*"
+    }
+}
