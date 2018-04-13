@@ -1,0 +1,11 @@
+{
+    "CODE"                                              : "Message %s | %i",
+    "SETTINGS-INIT"                                     : "Message %s | %i",
+    "DB-LOADOBJECT_ERROR"                               : "Erreur durant le chargement d'un objet (Qry:'%s').",
+    "DB-LOADOBJECT_ROWCOUNT-INVALID"                    : "Chargement d'un objet - Nombre d'enregistrement invalide ! (NbRows=%i) (Qry:'%s').",
+    "COREMODEL-OBJECT_NAME_NOT_FOUND"                   : "",
+    "CORE-FS_FILECOPY-SOURCE_FILE_NOT_FOUNDED"          : "Erreur lors de la copie de fichier : Le fichier source n'as pu être trouvé! (Source : '%s' | Destination : '%s'). Copie annulée.",
+    "CORE-FS_FILECOPY-DESTINATION_FILE_ALREADY EXISTS"  : "Erreur lors de la copie de fichier : Un fichier existe déjà pour la destination! (Source : '%s' | Destination : '%s'). Copie annulée.",
+    "CORE-DICO_LOAD-SOURCE_FILE_NOT_FOUNDED"            : "Erreur lors du chargement d'un fichier dans le dictionnaire : Le fichier source n'as pu être trouvé! (Source : '%s'). Chargement annulé.",
+    "CORE-DICO_LOAD-SOURCE_FILE_JSON_ERROR"             : "Erreur lors du chargement d'un fichier dans le dictionnaire : Le fichier JSON n'as pu être décodé/interprété! (Source : '%s' |JSON Error : '%s'). Chargement annulé."
+}

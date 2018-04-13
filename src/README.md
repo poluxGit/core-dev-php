@@ -1,15 +1,3 @@
-# MyECM - Core
+# CorePHP@PoLuX - Framework & Objets Core
 
-## Release alpha_01 - In Progress
-
-* [x] Dev. API RestFul
-
-## Developpement Tasks
-
-* [x] Logs Management
-* [ ] Exceptions & Errors Management
-* [x] Application Settings Management
-
-## Integration Tasks
-
-* [ ] PHP Composer deployment packaging
+Framework spécifique construit pour la gestion `Core` de **CorePHP@PoLuX**.
