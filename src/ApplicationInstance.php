@@ -17,7 +17,6 @@ use polux\CorePHP\Managers\SettingsManager as SettingsMng;
 use polux\CorePHP\Managers\LogsManager as LogsMng;
 use polux\CorePHP\Managers\DatabaseManager as DBMng;
 use polux\CorePHP\Logs\Logger;
-use polux\CorePHP\Exceptions\GenericApplicationException;
 
 /**
  * ApplicationInstance 

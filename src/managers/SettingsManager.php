@@ -56,6 +56,8 @@ class SettingsManager {
     // File loading!
     $str = file_get_contents($filepath);  
     $json = json_decode($str, true);
+    
+    static::$jsonSource = $str;
 
     /**************************************************************************/
     /* Databases Settings Management                                          */
