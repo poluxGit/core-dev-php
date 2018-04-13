@@ -54,7 +54,8 @@ class SettingsManager {
     }
 
     // File loading!
-    $str = file_get_contents($filepath);    
+    $str = file_get_contents($filepath);  
+    $json = json_decode($str, true);
 
     /**************************************************************************/
     /* Databases Settings Management                                          */
