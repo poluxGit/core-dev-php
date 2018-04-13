@@ -218,4 +218,33 @@ abstract class ApplicationInstance
     {
         return LogsMng::getLogger($idLogger);
     }//end getApplicationLoggerByInternalID()
+    
+    /**
+     * Définition du répertoire racine de l'application
+     * 
+     * @param string $rootpath Chemin complet vers le répertoire racine de l'application
+     */
+    public static function setApplicationRootPath(string $rootpath)
+    {
+        $lObjRootDir = dir($rootpath);
+        if($lObjRootDir !== NULL)
+        {
+            static::setApplicationRootPath($lObjRootDir);
+        }
+    }//end setApplicationRootPath()
+    
+    /**
+     * Définition du répertoire racine de l'application depuis un objet Directory
+     *
+     * @param \Directory $rootPathDirectory Objet Directory du répertoire racine de l'application
+     */
+    public static function setApplicationRootPath(\Directory $rootPathDirectory)
+    {
+        static::$appRootPath = $rootPathDirectory;
+    }//end setApplicationRootPath()
+    
+    public static function getApplicationRootDirectoryObject():\Directory
+    {
+        return static::$appRootPath;
+    }//end getApplicationRootDirectoryObject()
 }//end class
