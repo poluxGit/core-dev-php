@@ -2,9 +2,9 @@
 
 namespace polux\CorePHP\Managers;
 
-use polux\CorePHP\Internal\Interfaces\IManager;
-use polux\CorePHP\Internal\Logs\Logger;
-use polux\CorePHP\Internal\Exceptions\DatabaseException;
+use polux\CorePHP\Interfaces\IManager;
+use polux\CorePHP\Logs\Logger;
+use polux\CorePHP\Exceptions\DatabaseException;
 
 
 /**

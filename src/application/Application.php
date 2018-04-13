@@ -1,15 +1,12 @@
 <?php
 
-namespace polux\CorePHP;
+namespace polux\CorePHP\Application;
 
 /**
- * ApplicationInstance - Représente une application.
+ * Application - Classe générique 'Application'.
  * 
- * Initialisation et gestion des modules applicatifs : 
- * - Gestion de l'accès aux données
- * - Gestion des Exceptions d'execution
- * - Gestion et centralisation des opérations 
- * ...
+ * Implémente tout les mécanismes 'globaux' à l'execution 
+ * de l'application.
  *
  * @author poluxGit
  */
@@ -21,78 +18,46 @@ use polux\CorePHP\Managers\LogsManager as LogsMng;
 use polux\CorePHP\Managers\DatabaseManager as DBMng;
 use polux\CorePHP\Managers\ExceptionManager as ExceptMng;
 use polux\CorePHP\Logs\Logger;
-use polux\CorePHP\Exceptions\GenericApplicationException;
 
 /**
- * ApplicationInstance 
+ * Application 
  * 
  * Classe principale représentant une application métier/instance technique.
  * 
  */
-abstract class ApplicationInstance  
+class Application
 {
     // ------------------------- STATIC ATTRIBUTES ----------------------------
     /**
-     * Titre de l'application
+     * Titre de l'application 
      * 
      * @var string
+     * @static
      */
-    protected static $appTitle = null;
-    
-    /**
-     * Code de l'application
-     *
-     * @var string
-     */
-    protected static $appCode = null;
-    
-    /**
-     * Répertoire racine de l'application
-     * 
-     * @var \Directory
-     */
-    protected static $appRootPath = null;
-    
-    // ------------------------- Abstract STATIC METHODS ----------------------
-    /**
-     * Initialization de l'application
-     * 
-     * @abstract
-     */
-    abstract public static function initializeApplication();    
-    /**
-     * Initialisation des modules additionnels
-     * 
-     * @abstract
-     */
-    abstract public static function initializeAdditionalModules(string $settingsFile);
-    
+    protected static $applicationTitle = 'ApplicationTest - Nom à Définir';
+
     // ------------------------- STATIC METHODS ------------------------------
     /**
-     * Chargement des paramètres applicatifs 
+     * Initialisation du framework PHPCore - nécessaire à l'application
+     *
+     * Initialisation du framework : 
+     * - Initialisation & Chargement du Dictionnaire interne au framework
+     * - Initialisation du Gestionnaire d'exceptions
+     * - ... TO DEV
      * 
-     * @param string $settingsfile  Fichier de paramètres au format JSON.
-     * @throws GenericApplicationException
+     * @static
+     * @access protected
      * 
-     * @return bool Return FALSE if trouble
+     * @param string $appSetJSONFilepath  Settings to load - JSON file
+     *
+     * @SuppressWarnings(PHPMD.StaticAccess)
      */
-    protected static function loadApplicationSettings(string $settingsfile):bool
+    protected static function initFramework()
     {
-        try {
-            SettingsMng::loadSettingsFromJsonFile($settingsfile);
-//             // Load Framework internal dictionnary!
-//             $phpCoreDicFilePath = '/app/phpcore/internal/phpcore-dico.json';
-//             Dictionnary::loadJSONFileIntoDictionnary($settingsfile);
-        }
-        catch(\Exception $ex)
-        {
-            throw new GenericApplicationException("toto");    
-        }
-        
-        return true;
-    }//end loadApplicationSettings()
-    
-   
+        // Load Framework internal dictionnary!
+        $phpCoreDicFilePath = '/app/phpcore/internal/phpcore-dico.json';
+        Dictionnary::loadJSONFileIntoDictionnary($phpCoreDicFilePath);
+    }//end initFramework()
 
     /**
      * initApplication - Initialisation de l'application
@@ -112,7 +77,7 @@ abstract class ApplicationInstance
         // Load internal Dictionnary!
        
         // Settings loading !
-        
+        SettingsMng::loadSettingsFromJsonFile($appSetJSONFilepath);
 
         // Loggers initilization !
         static::initAllApplicationLoggers();

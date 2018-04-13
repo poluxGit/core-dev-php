@@ -2,14 +2,14 @@
 
 namespace polux\CorePHP\Managers;
 
-use polux\CorePHP\Internal\Interfaces\IManager;
-use polux\CorePHP\Internal\Model\AdditionalAttributeDefinition;
-use polux\CorePHP\Internal\Model\AdditionalAttributeValue;
-use polux\CorePHP\Internal\Model\Link;
-use polux\CorePHP\Internal\Model\LinkType;
-use polux\CorePHP\Internal\Model\ObjectType;
-use polux\CorePHP\Internal\Exceptions\CoreModelException;
-use polux\CorePHP\Internal\Exceptions\GenericApplicationException;
+use polux\CorePHP\Interfaces\IManager;
+use polux\CorePHP\Model\AdditionalAttributeDefinition;
+use polux\CorePHP\Model\AdditionalAttributeValue;
+use polux\CorePHP\Model\Link;
+use polux\CorePHP\Model\LinkType;
+use polux\CorePHP\Model\ObjectType;
+use polux\CorePHP\Exceptions\CoreModelException;
+use polux\CorePHP\Exceptions\GenericApplicationException;
 
 /**
  * Manager des fonctionnalités d'accès au 'CoreModel'

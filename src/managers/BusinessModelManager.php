@@ -2,11 +2,11 @@
 
 namespace polux\CorePHP\Managers;
 
-use polux\CorePHP\Internal\Interfaces\IManager;
-use polux\CorePHP\Internal\Logs\Logger;
-use polux\CorePHP\Internal\Model\AdditionalAttributeDefinition;
-use polux\CorePHP\Internal\Model\LinkType;
-use polux\CorePHP\Internal\Exceptions\GenericApplicationException;
+use polux\CorePHP\Interfaces\IManager;
+use polux\CorePHP\Logs\Logger;
+use polux\CorePHP\Model\AdditionalAttributeDefinition;
+use polux\CorePHP\Model\LinkType;
+use polux\CorePHP\Exceptions\GenericApplicationException;
 
 
 require_once(__DIR__.'/../../vendor/smarty/smarty/libs/Smarty.class.php');

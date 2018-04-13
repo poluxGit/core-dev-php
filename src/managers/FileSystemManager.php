@@ -7,9 +7,9 @@ namespace polux\CorePHP\Managers;
  *
  * @author poluxGit 
  */
-use polux\CorePHP\Internal\Exceptions\FileSystemException;
-use polux\CorePHP\Internal\Interfaces\IManager;
-use polux\CorePHP\Internal\Exceptions\FileSystemException as FSException;
+use polux\CorePHP\Exceptions\FileSystemException;
+use polux\CorePHP\Interfaces\IManager;
+use polux\CorePHP\Exceptions\FileSystemException as FSException;
 
 /**
  * Classe 'FileSystemManager'

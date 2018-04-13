@@ -7,8 +7,8 @@ namespace polux\CorePHP\Managers;
  * 
  * @author poluxGit
  */
-use polux\CorePHP\Internal\Interfaces\IManager;
-use polux\CorePHP\Internal\Exceptions\GenericApplicationException;
+use polux\CorePHP\Interfaces\IManager;
+use polux\CorePHP\Exceptions\GenericApplicationException;
 
 /**
  * Classe 'ExceptionManager'
