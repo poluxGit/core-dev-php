@@ -5,7 +5,7 @@
  */
 use PHPUnit\Framework\TestCase;
 use polux\CorePHP\Managers\LogsManager;
-use polux\CorePHP\Internal\Logs\Logger;
+use polux\CorePHP\Logs\Logger;
 
 class LogsManagerTest extends TestCase
 {

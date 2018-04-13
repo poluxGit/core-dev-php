@@ -13,13 +13,9 @@ namespace polux\CorePHP;
  *
  * @author poluxGit
  */
-
-// Dépendances locales...
 use polux\CorePHP\Managers\SettingsManager as SettingsMng;
-use polux\CorePHP\Managers\FileSystemManager as FSMng;
 use polux\CorePHP\Managers\LogsManager as LogsMng;
 use polux\CorePHP\Managers\DatabaseManager as DBMng;
-use polux\CorePHP\Managers\ExceptionManager as ExceptMng;
 use polux\CorePHP\Logs\Logger;
 use polux\CorePHP\Exceptions\GenericApplicationException;
 
@@ -53,36 +49,79 @@ abstract class ApplicationInstance
      */
     protected static $appRootPath = null;
     
+    /**
+     * Description de l'application
+     *
+     * @var string
+     */
+    protected static $appDescription = null;
+    
+    /**
+     * Version de l'application
+     *
+     * @var string
+     */
+    protected static $appVersion = null;
+    
     // ------------------------- Abstract STATIC METHODS ----------------------
     /**
      * Initialization de l'application
      * 
      * @abstract
      */
-    abstract public static function initializeApplication();    
+    abstract public static function initializeApplication(string $settingsFile);    
+    
     /**
      * Initialisation des modules additionnels
      * 
      * @abstract
      */
-    abstract public static function initializeAdditionalModules(string $settingsFile);
+    abstract public static function initializeAdditionalModules();
     
     // ------------------------- STATIC METHODS ------------------------------
     /**
      * Chargement des paramètres applicatifs 
      * 
      * @param string $settingsfile  Fichier de paramètres au format JSON.
-     * @throws GenericApplicationException
+     * @throws \Exception   Fichier inexistant !
      * 
      * @return bool Return FALSE if trouble
      */
     protected static function loadApplicationSettings(string $settingsfile):bool
     {
+        // Fichier inexistant !
+        if(!file_exists($settingsFile))
+        {
+            $lStrMessage = sprintf(
+                "ERREUR FATALE : Le fichier de paramètres de l'application n'as pu être trouvé ('%s').",
+                $settingsFile
+                );
+            throw new \Exception($lStrMessage);
+        }
+        
         try {
             SettingsMng::loadSettingsFromJsonFile($settingsfile);
-//             // Load Framework internal dictionnary!
-//             $phpCoreDicFilePath = '/app/phpcore/internal/phpcore-dico.json';
-//             Dictionnary::loadJSONFileIntoDictionnary($settingsfile);
+            
+            // Chargement des informations sur l'application!
+            $lArrAppInfo = SettingsMng::getJSONSubArray("application");
+            
+            // Titre de l'application
+            static::$appTitle = (array_key_exists("title", $lArrAppInfo)?$lArrAppInfo["title"]:"Titre non défini");
+            
+            // Description de l'application
+            static::$appDescription = (array_key_exists("description", $lArrAppInfo)?$lArrAppInfo["description"]:"Description non définie");
+            
+            // Code de l'application [MANDATORY]
+            if(array_key_exists("code", $lArrAppInfo)){
+                static::$appCode = $lArrAppInfo["code"];
+            }
+            else {
+                throw new \Exception("Le code applicatif est obligatoire. Paramètre 'code' non trouvé.");
+            }
+            
+            // Version de l'application
+            static::$appVersion = (array_key_exists("version", $lArrAppInfo)?$lArrAppInfo["version"]:"Version non définie");
+            
         }
         catch(\Exception $ex)
         {
@@ -91,45 +130,7 @@ abstract class ApplicationInstance
         
         return true;
     }//end loadApplicationSettings()
-    
-   
-
-    /**
-     * initApplication - Initialisation de l'application
-     *
-     * @static
-     * @access protected
-     * 
-     * @param string $appSetJSONFilepath  Settings to load - JSON file
-     *
-     * @SuppressWarnings(PHPMD.StaticAccess)
-     */
-    protected static function initApplication($appSetJSONFilepath)
-    {
-        // Settings file existance checks !
-        FSMng::checkFileExistance($appSetJSONFilepath);
-
-        // Load internal Dictionnary!
        
-        // Settings loading !
-        
-
-        // Loggers initilization !
-        static::initAllApplicationLoggers();
-        static::getApplicationLogger()->logMessage('Application init - Loggers OK.');
-
-        // Database handler init !
-        static::initAllDatabasesPDOHandler();
-        static::getApplicationLogger()->logMessage('Application init - DBHandler(s) OK.');
-        
-        // Exception Manager init ! 
-        ExceptMng::initializeExceptionMessageFile("/app/settings/exceptions-messages.json");
-        static::getApplicationLogger()->logMessage('Application init - Exception Manager(s) OK.');
-        
-        // TODO Chargement de modules tiers ... A Voir ?!
-        static::getApplicationLogger()->logMessage('Application finished successfully!');
-    }//end initApplication()
-
     /**
      * Initialisation des Handlers de DB
      *

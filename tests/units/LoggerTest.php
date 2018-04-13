@@ -6,7 +6,7 @@
  * @author polux
  */
 use PHPUnit\Framework\TestCase;
-use polux\CorePHP\Internal\Logs\Logger;
+use polux\CorePHP\Logs\Logger;
 
 /**
  * LoggerTest Class
