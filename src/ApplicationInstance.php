@@ -229,7 +229,7 @@ abstract class ApplicationInstance
         $lObjRootDir = dir($rootpath);
         if($lObjRootDir !== NULL)
         {
-            static::setApplicationRootPath($lObjRootDir);
+            static::setApplicationRootPathFromObject($lObjRootDir);
         }
     }//end setApplicationRootPath()
     
@@ -238,7 +238,7 @@ abstract class ApplicationInstance
      *
      * @param \Directory $rootPathDirectory Objet Directory du répertoire racine de l'application
      */
-    public static function setApplicationRootPath(\Directory $rootPathDirectory)
+    public static function setApplicationRootPathFromObject(\Directory $rootPathDirectory)
     {
         static::$appRootPath = $rootPathDirectory;
     }//end setApplicationRootPath()
@@ -246,5 +246,5 @@ abstract class ApplicationInstance
     public static function getApplicationRootDirectoryObject():\Directory
     {
         return static::$appRootPath;
-    }//end getApplicationRootDirectoryObject()
+    }//end setApplicationRootPathFromObject()
 }//end class
