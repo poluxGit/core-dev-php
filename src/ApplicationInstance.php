@@ -54,7 +54,18 @@ abstract class ApplicationInstance
     protected static $appRootPath = null;
     
     // ------------------------- Abstract STATIC METHODS ----------------------
-    abstract public static function initializeApplication();
+    /**
+     * Initialization de l'application
+     * 
+     * @abstract
+     */
+    abstract public static function initializeApplication();    
+    /**
+     * Initialisation des modules additionnels
+     * 
+     * @abstract
+     */
+    abstract public static function initializeAdditionalModules();
     
     // ------------------------- STATIC METHODS ------------------------------
     /**
