@@ -69,7 +69,7 @@ abstract class ApplicationInstance
      * 
      * @abstract
      */
-    abstract public static function initializeApplication(string $settingsFile);    
+    abstract  public static function initializeApplication(string $settingsFile);    
     
     /**
      * Initialisation des modules additionnels
