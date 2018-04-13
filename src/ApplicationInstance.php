@@ -71,6 +71,13 @@ abstract class ApplicationInstance
     abstract  public static function initializeApplication(string $settingsFile);    
     
     /**
+     * Initialization du dictionnaire des messages d'exceptions de l'application
+     *
+     * @abstract
+     */
+    abstract  public static function initializeExceptionMessages(string $exceptionsMessageJSONFile);    
+    
+    /**
      * Initialisation des modules additionnels
      * 
      * @abstract
