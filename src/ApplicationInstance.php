@@ -90,11 +90,11 @@ abstract class ApplicationInstance
     protected static function loadApplicationSettings(string $settingsfile):bool
     {
         // Fichier inexistant !
-        if(!file_exists($settingsFile))
+        if(!file_exists($settingsfile))
         {
             $lStrMessage = sprintf(
                 "ERREUR FATALE : Le fichier de paramètres de l'application n'as pu être trouvé ('%s').",
-                $settingsFile
+                $settingsfile
                 );
             throw new \Exception($lStrMessage);
         }
@@ -125,7 +125,8 @@ abstract class ApplicationInstance
         }
         catch(\Exception $ex)
         {
-            throw new GenericApplicationException("toto");    
+            $lStrMessage = sprintf("Une erreur est survenu durant l'initialisation de l'application : %s.",$ex->getMessage());
+            throw new GenericApplicationException($lStrMessage);    
         }
         
         return true;
