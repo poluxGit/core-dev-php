@@ -126,7 +126,7 @@ abstract class ApplicationInstance
         catch(\Exception $ex)
         {
             $lStrMessage = sprintf("Une erreur est survenu durant l'initialisation de l'application : %s.",$ex->getMessage());
-            throw new GenericApplicationException($lStrMessage);    
+            throw new \Exception($lStrMessage);    
         }
         
         return true;
