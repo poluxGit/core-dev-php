@@ -243,8 +243,22 @@ abstract class ApplicationInstance
         static::$appRootPath = $rootPathDirectory;
     }//end setApplicationRootPath()
     
+    /**
+     * Retourne l'objet répertoire correspondant à la racine de l'application
+     * 
+     * @return \Directory
+     */
     public static function getApplicationRootDirectoryObject():\Directory
     {
         return static::$appRootPath;
     }//end setApplicationRootPathFromObject()
+    
+    /**
+     * Deploiement de la base de données COREDB
+     */
+    protected static function deployCoreDatabase()
+    {
+        
+    }//end deployCoreDatabase()
+    
 }//end class

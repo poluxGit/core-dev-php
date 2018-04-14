@@ -149,6 +149,16 @@ class SettingsManager {
       
       return $json[$subCategoryName];
   }//end getJSONSubArray()
+  
+  /**
+   * RAZ des objets statiques (Db Handlers & Logger)
+   */
+  public static function resetStaticObjects()
+  {
+      static::$aDbConnections = [];
+      static::$aLoggers = [];
+      static::$jsonSource = null;
+  }
 
 }//end class
 

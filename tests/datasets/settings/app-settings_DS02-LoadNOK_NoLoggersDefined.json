@@ -1,0 +1,33 @@
+  {
+  	"application": {
+  		"title": "ECM",
+  		"description": "Gestion Documentaire",
+  		"version":"alpha-dev",
+  		"code": "ECM"
+  	},  
+	"databases": [
+		{
+			"id": "DEFAULT",
+			"dsn": "mysql:host=coredbdev_01;port=3306;dbname=COREDEV01",
+			"login": "polux",
+			"password": "polux"
+		},
+		{
+			"id": "TASKS",
+			"dsn": "mysql:host=coredbdev_01;port=3306;dbname=COREDEV01",
+			"login": "polux",
+			"password": "polux"
+		}
+	],
+	"loggers": [
+		
+	],
+	"specifics": [
+		{
+			"id": "PARAM_UID1"
+		},
+		{
+			"id": "PARAM_UID2"
+		}
+	]
+}

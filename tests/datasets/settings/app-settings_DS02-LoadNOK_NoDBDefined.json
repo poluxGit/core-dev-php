@@ -1,0 +1,38 @@
+  {
+  	"application": {
+  		"title": "ECM",
+  		"description": "Gestion Documentaire",
+  		"version":"alpha-dev",
+  		"code": "ECM"
+  	},  
+	"loggers": [
+		{
+			"id": "LOG_APP",
+			"filepath": "logs",
+			"patternMessage": ""
+		},
+		{
+			"id": "LOG_TASK",
+			"filepath": "logs",
+			"patternMessage": ""
+		},
+		{
+			"id": "LOG_USER",
+			"filepath": "logs",
+			"patternMessage": ""
+		},
+		{
+			"id": "LOG_DB-SQL",
+			"filepath": "logs",
+			"patternMessage": ""
+		}
+	],
+	"specifics": [
+		{
+			"id": "PARAM_UID1"
+		},
+		{
+			"id": "PARAM_UID2"
+		}
+	]
+}
