@@ -59,7 +59,7 @@ class GenericApplicationException extends \Exception {
    */
   static function setExceptionDefinitionFile($pStrJSONFilePath)
   {
-    var_dump($pStrJSONFilePath);
+     // var_dump($pStrJSONFilePath);
      if(file_exists($pStrJSONFilePath))
      {
        self::$fileExceptionDefinitions = $pStrJSONFilePath;
